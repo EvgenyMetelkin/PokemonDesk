@@ -1,15 +1,13 @@
-import React from 'react';
-import cn from 'classnames';
+import React from 'react'; 
 
 import s from './App.module.scss';
+import HomePage from './pages/Home';
 
 const App = () => {
     console.log('lod');
 
     return (
-        <div className={cn(s.header)}>
-            This is App Component!
-        </div>
+        <HomePage />
     )
 }
 
